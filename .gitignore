@@ -1,48 +1,31 @@
-# Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+._*
+.DS_Store
+.vagrant
 
-# Email spool folder
-/app/spool/*
-
-# Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
-
-# Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
-
-# Managed by Composer
+# Symfony
+/web/bundles/
+/web/css/
+/web/js/
+/web/docs/*
+/web/fonts/
 /app/bootstrap.php.cache
-/var/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+/build/
+/vendor/
 /bin/*
 !bin/console
 !bin/symfony_requirements
-/vendor/
-
-# Assets and user uploads
-/web/bundles/
-/web/uploads/
-
-# Assets managed by Bower
-/web/assets/vendor/
-
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
-
-# Build data
-/build/
-
-# Composer PHAR
 /composer.phar
+/var/bootstrap.php.cache
+/var/SymfonyRequirements.php
+/var/cache/*
+/var/logs/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
 
-# Backup entities generated with doctrine:generate:entities command
-*/Entity/*~
+# Yeoman
+node_modules
+.tmp
+.sass-cache
