@@ -8,43 +8,6 @@ exclude:
   - './vendor/**'
 
 linters:
-  # BangFormat:
-  #   enabled: true
-  #   space_before_bang: true
-  #   space_after_bang: false
-
-  BemDepth:
-    enabled: false
-
-  BorderZero:
-    enabled: true
-    convention: zero # or `none`
-
-  # ChainedClasses:
-  #   enabled: false
-
-  # ColorKeyword:
-  #   enabled: true
-
-  ColorVariable:
-    enabled: false
-
-  Comment:
-    enabled: false
-    style: loud # silent, loud
-
-  DebugStatement:
-    enabled: true
-
-  DeclarationOrder:
-    enabled: false
-
-  DisableLinterReason:
-    enabled: false
-
-  DuplicateProperty:
-    enabled: true
-
   ElsePlacement:
     enabled: true
     style: same_line # or 'new_line'
