@@ -8,10 +8,10 @@ exclude:
   - './vendor/**'
 
 linters:
-  BangFormat:
-    enabled: true
-    space_before_bang: true
-    space_after_bang: false
+  # BangFormat:
+  #   enabled: true
+  #   space_before_bang: true
+  #   space_after_bang: false
 
   BemDepth:
     enabled: false
@@ -20,11 +20,11 @@ linters:
     enabled: true
     convention: zero # or `none`
 
-  ChainedClasses:
-    enabled: false
+  # ChainedClasses:
+  #   enabled: false
 
-  ColorKeyword:
-    enabled: true
+  # ColorKeyword:
+  #   enabled: true
 
   ColorVariable:
     enabled: false
