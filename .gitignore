@@ -13,11 +13,15 @@
 /app/config/parameters.yml
 /app/logs/*
 /build/
+/build/
+/build/
 /vendor/
 /bin/*
 !bin/console
 !bin/symfony_requirements
 /composer.phar
+/var/bootstrap.php.cache
+/var/bootstrap.php.cache
 /var/bootstrap.php.cache
 /var/SymfonyRequirements.php
 /var/cache/*
